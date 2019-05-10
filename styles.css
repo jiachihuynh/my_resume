@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');;
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Ubuntu';
+    background-color: rgb()
+}
+
+.bgr-image {
+    margin-top: 0;
+    background-image: url('./images/bgr-image.jpg');
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.title-bar a {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fff;
+    text-shadow: 2px 2px 10px #000;
+}
+
+.title-bar a:hover {
+    text-decoration: none;
+    color: #ddd;
+}
