@@ -1,28 +1,66 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');;
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 html, body {
-    height: 100%;
-    width: 100%;
+    padding: 0;
+    margin: 0;
     font-family: 'Ubuntu';
-    background-color: rgb()
 }
 
-.bgr-image {
-    margin-top: 0;
-    background-image: url('./images/bgr-image.jpg');
-    height: 60vh;
-    background-position: center;
+.bg-image {
+    background: url('./images/bgr-image.jpg') no-repeat center;
+    height: 45vh;
     background-size: cover;
+    background-position: top;
+    opacity: 0.8;
+    background-color: #000;
 }
 
-.title-bar a {
-    font-weight: 700;
-    font-size: 1rem;
-    color: #fff;
-    text-shadow: 2px 2px 10px #000;
+.row-flex {
+    display: flex;
+    flex-direction: row;
 }
 
-.title-bar a:hover {
+.row-flex a {
+    margin-top: 8px;
+    display: inline-block;
+    line-height: 22px;
+    height: 22px;
     text-decoration: none;
-    color: #ddd;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 2px 2px 10px #000;  
+
+}
+
+.row-flex a:hover {
+    color: #9c9292;
+}
+
+.row-flex .title-cv {
+    margin-top: -2px;
+    margin-left: 10px;
+    width: 50vw;
+}
+
+.title-cv a {
+    font-size: 24px;
+} 
+
+.row-flex .title-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+.avatar {
+    text-align: center;
+    position: relative;
+    top: -60px;
+}
+
+.avatar img {
+    background-color: #fff;
+    padding: 2px;
 }
