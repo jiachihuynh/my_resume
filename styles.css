@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 html, body {
     padding: 0;
     margin: 0;
-    font-family: 'Ubuntu';
+    font-family: 'Open Sans', sans-serif;
 }
 
-
+a {
+    text-decoration: none;
+}
 
 .bg-image {
     background: url('./images/bgr-image.jpg') no-repeat center;
@@ -27,7 +29,6 @@ html, body {
     display: inline-block;
     line-height: 22px;
     height: 22px;
-    text-decoration: none;
     font-size: 18px;
     font-weight: 500;
     color: #fff;
@@ -41,7 +42,7 @@ html, body {
 
 .row-flex .title-cv {
     margin-top: -2px;
-    margin-left: 10px;
+    margin-left: 20px;
     width: 50vw;
 }
 
@@ -71,5 +72,54 @@ h1 {
     text-align: center;
     margin-top: -40px;
     font-size: 55px;
-    color: #464141;
+    color: #444647;
+}
+
+h2 {
+    text-align: center;
+    color: #5c5d5f;
+    font-weight: 300;
+    font-size: 27px;
+    margin-top: -20px;
+}
+
+.col-flex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fas span {
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #57595a;
+}
+
+.media-icon {
+    margin-top: 20px;
+}
+
+.media-icon .fab {
+    font-size: 22px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.media-icon .fa-facebook {
+    color: #3b5998;
+}
+
+.media-icon .fa-github {
+    color: #211F1F;
+}
+
+.media-icon .fa-twitter {
+    color:  #1da1f2;
+}
+
+.description {
+    margin-top: 10px;
+    margin-left: 25%;
+    width: 50%;
+    font-size: 15px;
 }
