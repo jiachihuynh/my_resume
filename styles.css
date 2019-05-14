@@ -68,14 +68,14 @@ a {
     padding: 2px;
 }
 
-h1 {
+.name-position h1 {
     text-align: center;
     margin-top: -40px;
     font-size: 55px;
     color: #444647;
 }
 
-h2 {
+.name-position h2 {
     text-align: center;
     color: #5c5d5f;
     font-weight: 300;
@@ -122,4 +122,28 @@ h2 {
     margin-left: 25%;
     width: 50%;
     font-size: 15px;
+}
+
+.row-flex .greeting {
+    width: 50%;
+    margin-top: 100px;
+    padding-left: 10vw;
+    padding-right: 8vw; 
+}
+
+.greeting h1 {
+    text-align: left;
+    color: #444647;
+    font-size: 50px; 
+}
+
+.row-flex .languages-tools {
+    width: 50%;
+    margin-top: 100px;
+}
+
+.languages {
+    width: 25%;
+    text-align: left;
+    padding-right: 5vw;
 }
