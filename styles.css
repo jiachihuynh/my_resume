@@ -6,6 +6,8 @@ html, body {
     font-family: 'Ubuntu';
 }
 
+
+
 .bg-image {
     background: url('./images/bgr-image.jpg') no-repeat center;
     height: 45vh;
@@ -63,4 +65,11 @@ html, body {
 .avatar img {
     background-color: #fff;
     padding: 2px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: -40px;
+    font-size: 55px;
+    color: #464141;
 }
