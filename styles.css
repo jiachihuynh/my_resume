@@ -14,8 +14,8 @@ a {
     background: url('./images/bgr-image.jpg') no-repeat center;
     height: 45vh;
     background-size: cover;
-    background-position: top;
-    opacity: 0.8;
+    background-position-y: 40%;
+    opacity: 0.9;
     background-color: #000;
 }
 
@@ -122,19 +122,46 @@ a {
     margin-left: 25%;
     width: 50%;
     font-size: 15px;
+    opacity: 0.7;
 }
 
 .row-flex .greeting {
     width: 50%;
     margin-top: 100px;
-    padding-left: 10vw;
+    padding-left: 5vw;
     padding-right: 8vw; 
 }
 
 .greeting h1 {
     text-align: left;
     color: #444647;
-    font-size: 50px; 
+    font-size: 45px; 
+}
+
+.greeting p {
+    margin-top: -15px;
+    font-size: 17px;
+    opacity: 0.7;
+}
+
+.greeting a {
+    text-shadow: none;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 3px;
+    background-color: #5CACC7;
+    text-transform: uppercase;
+    box-shadow: 0 2px 2px 0;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1);
+}
+
+.greeting a:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.greeting span {
+    font-size: 15px;
 }
 
 .row-flex .languages-tools {
@@ -145,5 +172,6 @@ a {
 .languages {
     width: 25%;
     text-align: left;
-    padding-right: 5vw;
+    padding-right: 8vw;
 }
+
