@@ -205,8 +205,8 @@ a {
 }
 
 .exp {
-    background-color: #e8eaee;
-    line-height: 2;
+    background-color: #f0f0f0;
+    line-height: 1.75;
 }
 
 .exp h2 {
@@ -236,7 +236,7 @@ a {
 }
 
 .exp .job-infor {
-    margin-left: 4rem;
+    margin-left: 4vw;
     width: 20rem;
     overflow: auto;
 }
