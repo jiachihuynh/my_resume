@@ -224,19 +224,39 @@ a {
 }
 
 .exp .space {
-    width: 50%;
+    width: 49%;
+}
+
+.exp .job-block {
+    width: 49%;
 }
 
 .exp .ver-line {
     position: relative;
     bottom: -10px;
-    left: 4px;
-    height: 120px;
+    left: 5px;
+    height: auto;
     border-right: 2px solid #5CACC7;
 }
 
 .exp .job-infor {
-    margin-left: 4vw;
-    width: 20rem;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 25vw;
     overflow: auto;
+}
+
+.exp .order-1 {
+    text-align: right;
+    order: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.exp .order-2 {
+    order: 2;
+}
+
+.exp .order-3 {
+    order: 3;
 }
