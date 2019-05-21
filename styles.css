@@ -130,7 +130,7 @@ a {
 }
 
 .about-skill {
-    margin-top: 130px;
+    margin-top: 150px;
     margin-bottom: 100px;
     padding-left: 6vw; 
 }
@@ -270,10 +270,18 @@ a {
     padding-bottom: 50px;
 }
 
-.contact h2,h4 {
+.align-center {
     text-align: center;
 }
 
-.space-around {
+.space-evenly {
     justify-content: space-evenly;
+}
+
+footer {
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #868585;
 }
