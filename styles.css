@@ -73,7 +73,7 @@ a {
 
 .name-position h1 {
     text-align: center;
-    margin-top: -60px;
+    margin-top: -40px;
     margin-bottom: 20px;
     font-size: 55px;
     color: #444647;
@@ -130,8 +130,8 @@ a {
 }
 
 .about-skill {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 130px;
+    margin-bottom: 100px;
     padding-left: 6vw; 
 }
 
@@ -259,4 +259,21 @@ a {
 
 .exp .order-3 {
     order: 3;
+}
+
+.exp .space-height {
+    height: 50px;
+}
+
+.contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact h2,h4 {
+    text-align: center;
+}
+
+.space-around {
+    justify-content: space-evenly;
 }
