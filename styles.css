@@ -20,6 +20,7 @@ a {
     background-position-y: 40%;
     opacity: 0.9;
     background-color: #000;
+    background-attachment: fixed;
 }
 
 .row-flex {
@@ -279,9 +280,10 @@ a {
 }
 
 footer {
-    padding-top:10px;
-    padding-bottom: 10px;
+    padding-top:7px;
+    padding-bottom: 7px;
     text-align: center;
     color: #fff;
     background-color: #868585;
+    opacity: 0.8;
 }
